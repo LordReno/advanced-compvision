@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Bell Pepper', 'Olive', 'basil', 'cheese', 'mushrooms', 'pepperoni', 'pizza', 'strawberry', 'tomato']
+
+roboflow:
+  workspace: pizza-dataset-xzdo0
+  project: pizza-detection-cllev
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/pizza-dataset-xzdo0/pizza-detection-cllev/dataset/2
